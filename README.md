@@ -1,10 +1,8 @@
 # 🗂️ 1337 Piscine Backup  
 
-![Language](https://img.shields.io/badge/language-C-blue?style=for-the-badge)  
-![Repo Size](https://img.shields.io/github/repo-size/mr-fall/1337.Document?style=for-the-badge&color=green)  
-![Last Commit](https://img.shields.io/github/last-commit/mr-fall/1337.Document?style=for-the-badge&color=yellow)  
-
-<img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="400" alt="Coding gif" align="right"/>
+<p align="center">
+  <img src="./assets/by-vegas.gif" alt="GIF" width="1000"/>
+</p>
 
 📌 This repository is a **backup and documentation** of my journey in the **1337 Piscine**.  
 It contains my progress, notes, and solutions (completed or not yet).  
@@ -15,31 +13,25 @@ The goal is to keep track of everything for reference and learning.
 ## 📂 Repository link  
 👉 [1337.Document](https://github.com/mr-fall/1337.Document)
 
----
 
 ## 📊 Progress  
-
-
----
-
-## 📑 Exercises Table  
 
 | Exercise | Status | Notes |
 |----------|--------|-------|
 | **ex00** | 🟢 Done | Compiled & tested |
-| **ex01** | 🟢 Done | – |
-| **ex02** | 🟢 Done | – |
-| **ex03** | 🟢 Done | – |
-| **ex04** | 🟢 Done | – |
-| **ex05** | 🟢 Done | – |
-| **ex06** | 🟢 Done | – |
-| **ex07** | 🟢 Done | – |
-| **ex08** | 🟢 Done | – |
-| **ex09** | 🟢 Done | – |
-| **ex10** | 🔴 Not yet | Skipped |
-| **ex11** | 🟢 Done | – |
-| **ex12** | 🔴 Not yet | Skipped |
-| **ex13** | 🔴 Not yet | Skipped |
+| **ex01** | 🔴 Not yet | – |
+| **ex02** | 🔴 Not yet | – |
+| **ex03** | 🔴 Not yet | – |
+| **ex04** | 🔴 Not yet | – |
+| **ex05** | 🔴 Not yet | – |
+| **ex06** | 🔴 Not yet | – |
+| **ex07** | 🔴 Not yet | – |
+| **ex08** | 🔴 Not yet | – |
+| **ex09** | 🔴 Not yet | – |
+| **ex10** | 🔴 Not yet | – |
+| **ex11** | 🔴 Not yet | – |
+| **ex12** | 🔴 Not yet | – |
+| **ex13** | 🔴 Not yet | – |
 | **BSQ**  | 🔴 Not yet | – |
 
 ---
@@ -58,13 +50,13 @@ It’s designed as a **backup system** for Piscine exercises:
 
 ## ⚡ How to Compile & Run  
 
-Clone repo and go to `C13` directory:  
+Clone repo and go to `C00` directory:  
 ```bash
-git clone https://github.com/mr-fall/1337.Document.git
-cd 1337.Document/C13
-
-✅ Completed: 10  
-❌ Not yet: 4 (C10, C12, C13, BSQ)  
+git clone https://github.com:mr-fall/1337-piscine.Backup.git 1337.Pool
+cd 1337.Pool/C00
+```
+✅ Completed: Soon..  
+  ❌ Not yet: Soon... 
 
 ---
 
