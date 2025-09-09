@@ -18,20 +18,25 @@ The goal is to keep track of everything for reference and learning.
 
 | Exercise | Status | Notes |
 |----------|--------|-------|
-| **ex00** | 🟢 Done | Compiled & tested |
-| **ex01** | 🔴 Not yet | – |
-| **ex02** | 🔴 Not yet | – |
-| **ex03** | 🔴 Not yet | – |
-| **ex04** | 🔴 Not yet | – |
-| **ex05** | 🔴 Not yet | – |
-| **ex06** | 🔴 Not yet | – |
-| **ex07** | 🔴 Not yet | – |
-| **ex08** | 🔴 Not yet | – |
-| **ex09** | 🔴 Not yet | – |
-| **ex10** | 🔴 Not yet | – |
-| **ex11** | 🔴 Not yet | – |
-| **ex12** | 🔴 Not yet | – |
-| **ex13** | 🔴 Not yet | – |
+| **Shell00** | 🟢 Done | Compiled & tested |
+| **Shell01** | 🔴 Not yet | – |
+| **C00** | 🔴 Not yet | – |
+| **C01** | 🔴 Not yet | – |
+| **C02** | 🔴 Not yet | – |
+| **C03** | 🔴 Not yet | – |
+| **C04** | 🔴 Not yet | – |
+| **C05** | 🔴 Not yet | – |
+| **C06** | 🔴 Not yet | – |
+| **C07** | 🔴 Not yet | – |
+| **C08** | 🔴 Not yet | – |
+| **C09** | 🔴 Not yet | – |
+| **C10** | 🔴 Not yet | – |
+| **C11** | 🔴 Not yet | – |
+| **C12** | 🔴 Not yet | – |
+| **C13** | 🔴 Not yet | – |
+| **Rush00** | 🔴 Not yet | – |
+| **Rush01** | 🔴 Not yet | – |
+| **Rush02** | 🔴 Not yet | – |
 | **BSQ**  | 🔴 Not yet | – |
 
 ---
