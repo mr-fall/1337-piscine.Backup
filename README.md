@@ -22,7 +22,7 @@ The goal is to keep track of everything for reference and learning.
 | **Shell01** | 🟢 Done | Compiled & tested |
 | **C00** | 🟢 Done | Compiled & tested |
 | **C01** | 🟢 Done | Compiled & tested |
-| **C02** | 🔴 Not yet | – |
+| **C02** | 🟢 Done | Compiled & tested |
 | **C03** | 🔴 Not yet | – |
 | **C04** | 🔴 Not yet | – |
 | **C05** | 🔴 Not yet | – |
