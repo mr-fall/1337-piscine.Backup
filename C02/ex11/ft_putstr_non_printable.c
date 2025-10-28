@@ -1,19 +1,42 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlcpy.c                                       :+:      :+:    :+:   */
+/*   ft_putstr_non_printable.c                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: Vegas <marvin@42.fr>                     +#+  +:+       +#+          */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/20 22:18:07 by Vegas           #+#    #+#               */
-/*   Updated: 2025/07/21 16:05:57 by Vegas          ###   ########.fr         */
+/*   Created: 2025/07/28 02:06:21 by Vegas           #+#    #+#               */
+/*   Updated: 2025/07/28 03:04:34 by Vegas          ###   ########.fr         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_div_mod(int a, int b, int *div, int *mod)
+void	ft_putchar(char c)
 {
-	*div = a / b;
-	*mod = a % b;
+	write (1, &c, 1);
+}
+
+void	ft_putstr_non_printable(char *str)
+{
+	int				i;
+	unsigned char	x;
+
+	i = 0;
+	if (str)
+	{
+		while (str[i])
+		{
+			if (str[i] >= 32 && str[i] <= 126)
+				ft_putchar(str[i]);
+			else
+			{
+				ft_putchar('\\');
+				x = (unsigned char)str[i];
+				ft_putchar("0123456789abcdef"[x / 16]);
+				ft_putchar("0123456789abcdef"[x % 16]);
+			}
+			i++;
+		}
+	}
 }

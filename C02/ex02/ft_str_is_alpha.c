@@ -10,10 +10,21 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-void	ft_div_mod(int a, int b, int *div, int *mod)
+int	ft_str_is_alpha(char *str)
 {
-	*div = a / b;
-	*mod = a % b;
+	int	i;
+
+	i = 0;
+	if (str[i] == '\0')
+		return (1);
+	while (str[i] != '\0')
+	{
+		if ((str[i] >= 'a' && str[i] <= 'z')
+			|| (str[i] >= 'A'
+				&& str[i] <= 'Z'))
+			i++;
+		else
+			return (0);
+	}
+	return (1);
 }

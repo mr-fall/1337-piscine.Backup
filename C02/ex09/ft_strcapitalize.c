@@ -10,10 +10,43 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-void	ft_div_mod(int a, int b, int *div, int *mod)
+char	*ft_strlowcase(char *str)
 {
-	*div = a / b;
-	*mod = a % b;
+	int	i;
+
+	i = 0;
+	while (str[i] != '\0')
+	{
+		if (str[i] >= 'A' && str[i] <= 'Z')
+			str[i] += 32;
+		i++;
+	}
+	return (str);
+}
+
+char	*ft_strcapitalize(char *str)
+{
+	int	i;
+	int	j;
+
+	i = 0;
+	j = 0;
+	ft_strlowcase(str);
+	while (str[i] != '\0')
+	{
+		if ((str[i] >= 'a' && str[i] <= 'z')
+			|| (str[i] >= '0'
+				&&str[i] <= '9'))
+		{
+			if (j == 0 && (str[i] >= 'a' && str[i] <= 'z'))
+			{
+				str[i] = str[i] - 32;
+			}
+			j = 1;
+		}
+		else
+			j = 0;
+		i++;
+	}
+	return (str);
 }

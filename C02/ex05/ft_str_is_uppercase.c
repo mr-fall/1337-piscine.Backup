@@ -10,10 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-void	ft_div_mod(int a, int b, int *div, int *mod)
+int	ft_str_is_uppercase(char *str)
 {
-	*div = a / b;
-	*mod = a % b;
+	int	i;
+
+	i = 0;
+	while (str[i] != '\0')
+	{
+		if (!(str[i] >= 'A' && str[i] <= 'Z'))
+			return (0);
+		i++;
+	}
+	return (1);
 }

@@ -10,10 +10,20 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-void	ft_div_mod(int a, int b, int *div, int *mod)
+char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
-	*div = a / b;
-	*mod = a % b;
+	unsigned int	i;
+
+	i = 0;
+	while (i < n && src[i])
+	{
+		dest[i] = src[i];
+		i++;
+	}
+	while (i < n)
+	{
+		dest[i] = '\0';
+		i++;
+	}
+	return (dest);
 }
