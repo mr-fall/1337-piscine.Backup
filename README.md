@@ -19,9 +19,9 @@ The goal is to keep track of everything for reference and learning.
 | Exercise | Status | Notes |
 |----------|--------|-------|
 | **Shell00** | 🟢 Done | Compiled & tested |
-| **Shell01** | 🔴 Not yet | – |
-| **C00** | 🔴 Not yet | – |
-| **C01** | 🔴 Not yet | – |
+| **Shell01** | 🟢 Done | Compiled & tested |
+| **C00** | 🟢 Done | Compiled & tested |
+| **C01** | 🟢 Done | Compiled & tested |
 | **C02** | 🔴 Not yet | – |
 | **C03** | 🔴 Not yet | – |
 | **C04** | 🔴 Not yet | – |
