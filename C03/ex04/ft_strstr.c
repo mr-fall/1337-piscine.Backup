@@ -18,8 +18,10 @@ char	*ft_strstr(char *str, char *to_find)
 
 	if (!str || !to_find)
 		return (NULL);
+
 	if (!to_find[0])
 		return (str);
+	
 	i = 0;
 	j = 0;
 	while (str[i])
